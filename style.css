@@ -11,13 +11,6 @@ body {
   font-family: Monterrat, sans-serif;
 }
 
-.img {
-  width: 60px; /* adjust the width of the image */
-  height: 60px; /* adjust the height of the image */
-  object-fit: cover; /* scale the image to cover the container */
-}
-
-
 /* header */
 .header {
   height: 10vh;
@@ -31,16 +24,15 @@ body {
   padding: 1rem 2rem;
   z-index: 1;
   backdrop-filter: blur(5px);
-  background-color: pink;
+  background-color: white;
 }
-
 
 .header a {
   text-decoration: none;
-  color: #111111;
+  color: black;
   font-size: 2rem;
+  font-family: 'Nothing You Could Do', cursive;
 }
-
 
 .menu-items {
   list-style: none;
@@ -55,7 +47,7 @@ body {
 }
 
 .menu-items li a:hover {
-  background-color: #ccc7d3;
+  color: #FFC6BF;
 }
 
 /* nav menu button */
@@ -142,7 +134,7 @@ body {
     left: 0;
     height: 100vh;
     transform: translateX(100vw);
-    background-color: #5a4d70;
+    background-color: white;
     transition: transform 0.3s ease-in-out;
   }
   .menu-items.open {
@@ -153,7 +145,7 @@ body {
     height: 100%;
   }
   .menu-items li a {
-    color: #ffffff;
+    color: black;
     font-size: 5vh;
     display: flex;
     justify-content: center;
@@ -162,6 +154,8 @@ body {
     height: 100%;
   }
   .menu-items li a:hover {
-    color: #111111;
+    color: #FFC6BF;
   }
 }
+
+
