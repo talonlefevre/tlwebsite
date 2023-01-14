@@ -11,8 +11,16 @@ body {
   font-family: Monterrat, sans-serif;
 }
 
+.img {
+  width: 60px; /* adjust the width of the image */
+  height: 60px; /* adjust the height of the image */
+  object-fit: cover; /* scale the image to cover the container */
+}
+
+
 /* header */
 .header {
+  height: 10vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,11 +34,13 @@ body {
   background-color: pink;
 }
 
+
 .header a {
   text-decoration: none;
   color: #111111;
   font-size: 2rem;
 }
+
 
 .menu-items {
   list-style: none;
@@ -50,10 +60,12 @@ body {
 
 /* nav menu button */
 .menu-btn {
-  position: relative;
+  position: absolute;
   display: none;
   justify-content: center;
   align-items: center;
+  right: 1rem;
+  top: 1rem;
   width: 1.5rem;
   height: 1.5rem;
   cursor: pointer;
