@@ -1,21 +1,36 @@
 function goToHome() {
-    window.location.href = "index.html";
-  }
-  
-  function goToAbout() {
-    window.location.href = "about.html";
-  }
-  function goToServices() {
-    window.location.href = "services.html";
-  } 
-  function goToContact() {
-    window.location.href = "contact.html";
-  }
-  
- const menu_btn = document.querySelector('.hamburger');
- const mobile_menu = document.querySelector('.mobile');
+  window.location.href = "index.html";
+}
 
- menu_btn.addEventListener('click', function () {
-  menu_btn.classList.toggle('is-active');
-  mobile_menu.classList.toggle('is-active');
- });
+function goToAbout() {
+  window.location.href = "about.html";
+}
+function goToServices() {
+  window.location.href = "services.html";
+} 
+function goToContact() {
+  window.location.href = "contact.html";
+}
+
+const menuBtn = document.querySelector(".menu-btn");
+const menuItems = document.querySelector(".menu-items");
+const menuItem = document.querySelectorAll(".menu-item");
+
+// main toggle
+menuBtn.addEventListener("click", () => {
+  toggle();
+});
+
+// toggle on item click if open
+menuItem.forEach((item) => {
+  item.addEventListener("click", () => {
+    if (menuBtn.classList.contains("open")) {
+      toggle();
+    }
+  });
+});
+
+function toggle() {
+  menuBtn.classList.toggle("open");
+  menuItems.classList.toggle("open");
+}
