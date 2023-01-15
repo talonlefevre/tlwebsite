@@ -67,7 +67,7 @@
   position: fixed; /* Change position to fixed */
   height: 400px;
   width: 400px;
-  top: 8%;
+  top: 9%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
