@@ -28,7 +28,6 @@
 /* Style the hamburger menu */
 .topnav a.icon {
   color: black;
-  display: block;
   position: absolute;
   right: 0;
   top: 0;
@@ -48,7 +47,7 @@
 
 
 
-.new-menu {
+.ul {
   position: fixed;
   z-index: 9999;
   text-align: center;
@@ -74,7 +73,7 @@
 
 
 
-.new-menu a {
+.ul li a {
   text-decoration: none;
   color: black;
   font-size: 16px;
@@ -86,7 +85,7 @@
 
 
 @media (min-width: 602px) {
-  .new-menu {
+  .logo {
     display: block;
   }
 }
