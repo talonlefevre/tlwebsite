@@ -47,6 +47,21 @@
 
 
 
+nav {
+  position: relative;
+}
+
+nav span {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* this will make the element center inside the parent element */
+  text-align: center;
+  font-size: 20px;
+  color: rgb(179, 171, 234);
+}
+
+
 ul {
   background-color: none;
   list-style-type: none;
