@@ -64,24 +64,24 @@
 }
 
 .logo {
-    position: absolute;
-    height: 400px;
-    width: 400px;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: fixed; /* Change position to fixed */
+  height: 400px;
+  width: 400px;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 
 
 .new-menu a {
-  position: relative;
-  text-align: center;
-  font-size: 20px;
   text-decoration: none;
   color: black;
-  margin: 16px 20px;
-  width: 100px;
+  font-size: 16px;
+  margin: 16px 16px;
+  
 }
+
 
 
 
