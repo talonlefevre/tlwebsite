@@ -5,9 +5,9 @@
 }
 
 .logo {
-  position: fixed;
+  position: absolute;
   transform: translate(-50%, -50%); /* this will make the element center inside the parent element */
-  margin-top: 20%;
+  margin-top: 14%;
   margin-left: 50%;
   width: 450px;
   height: 450px;
@@ -59,7 +59,7 @@
 
 
 nav {
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 1;
 }
@@ -89,7 +89,7 @@ ul li a {
   text-decoration: none;
   font-size: 15px;
   margin: 0;
-  margin-top: 260px;
+  margin-top: 270px;
   font-family: Arial, Helvetica, sans-serif;
 }
   
