@@ -45,23 +45,21 @@
     }
 }
 
+.logo {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* this will make the element center inside the parent element */
+  text-align: center;
+  width: 450px;
+  height: 450px;
+  color: rgb(179, 171, 234);
+}
 
 
 nav {
   position: relative;
 }
-
-.logo {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* this will make the element center inside the parent element */
-  text-align: center;
-  width: 300px;
-  height: 300px;
-  color: rgb(179, 171, 234);
-}
-
 
 ul {
   background-color: none;
@@ -95,6 +93,7 @@ ul li a {
 ul li a:hover {
   color: rgb(179, 171, 234);
 }
+
 
 
 @media (max-width: 601px) {
