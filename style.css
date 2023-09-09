@@ -5,9 +5,9 @@
 }
 
 .logo {
-  position: absolute;
+  position: fixed;
   transform: translate(-50%, -50%); /* this will make the element center inside the parent element */
-  margin-top: 14%;
+  margin-top: 5%;
   margin-left: 50%;
   width: 450px;
   height: 450px;
@@ -29,7 +29,7 @@
 
 /* Style navigation menu links */
 .topnav a {
-  color: red;
+  color: black;
   text-align: center;
   padding: 8px 16px;
   text-decoration: none;
@@ -78,7 +78,7 @@ ul li {
   float: left;
   font-size: 15px;
   margin: 0 30px;
-  margin-top: 26px;
+  margin-top: 0px;
 }
   
 ul li a {
